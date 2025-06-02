@@ -1,0 +1,336 @@
+* {
+    padding: 0px 0px;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+.main-container {
+    display: flex;
+}
+
+aside {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+    height: 93vh;
+    box-shadow: 0px 0px 5px rgb(207, 204, 204);
+    position: sticky;
+    top: 1px;
+    background-color: #F9F9FB;
+}
+
+aside .nav-main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+
+}
+
+aside .nav-main-section .logo {
+    height: 40px;
+    width: 200px;
+}
+
+aside .nav-main-section .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+aside .nav-main-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 17px;
+    padding: 10px;
+    color: #464647;
+}
+
+aside .nav-main-section ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+aside .login-main-section {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 2px black;
+    padding: 10px 5px;
+    gap: 10px;
+    border-radius: 12px;
+}
+
+aside .login-main-section .login-info {
+    height: 55px;
+    width: 50px;
+}
+
+aside .login-main-section .login-info img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+section {
+    width: 82%;
+    padding: 20px 20px;
+    background-color: #F9F9FB;
+}
+
+section .hero-section-header .heading-main-container .heading {
+    font-size: 22px;
+}
+
+section .hero-section-header .heading-main-container .para {
+    color: #959599;
+}
+
+section .hero-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .hero-section-header .cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section .hero-section-header .cta button {
+    padding: 12px;
+    border-radius: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+section .hero-section-header .cta button:first-child i {
+    font-size: medium;
+}
+
+section .hero-section-header .cta button:last-child {
+    background-color: #234DD7;
+    color: white;
+}
+
+section .totp-heading {
+    margin: 30px 0px;
+    padding: 30px 0px;
+}
+
+section .totp-heading .report {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+section .totp-heading h4,
+.account-main-container .account-heading .child-heading h4,
+.valut-section h4 {
+    font-size: 20px;
+}
+
+
+section .totp-heading .main-flex-container {
+    height: 150px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    justify-content: space-between;
+
+}
+
+section .totp-heading .main-flex-container .child-container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+section .totp-heading .main-flex-container .child-container .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section .totp-heading .main-flex-container .child-container .text p:first-child {
+    font-size: 20px;
+}
+
+section .totp-heading .main-flex-container .child-container .text p:last-child {
+    color: #959599;
+}
+
+section .totp-heading .main-flex-container .child-container .community {
+    padding: 3px;
+    background-color: #FFF4DA;
+    color: #c2a657;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+section .totp-heading .main-flex-container .stat-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+section .totp-heading .main-flex-container .stat-container p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section .totp-heading .main-flex-container .end-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rounded {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-right: 3px solid #234DD7;
+    border-top: rgb(216, 209, 209) 3px solid;
+    border-bottom: rgb(216, 209, 209) 3px solid;
+    border-left: rgb(216, 209, 209) 3px solid;
+
+}
+
+.account-main-container {
+    width: 90%;
+    display: flex;
+    gap: 30px;
+}
+
+.account-main-container .account-heading {
+    width: 70%;
+}
+
+.account-main-container .account-heading .child-heading,
+.valut-section h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-main-container .account-heading .child-heading .account-cta {
+    color: #234DD7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+.owner-badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+.me {
+    background-color: #e6f0ff;
+    color: #3366cc;
+}
+
+.john {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.sung {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.celline {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.checkbox-cell {
+    width: 40px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.ellipsis {
+    text-align: center;
+    width: 40px;
+    cursor: pointer;
+}
+
+.valut-section {
+    width: 30%;
+}
+
+.valut-section .valut-main-container {
+    height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 12px;
+    margin: 30px
+}
+
+.valut-section .valut-main-container span {
+    padding: 5px;
+    background-color: #FFF4DA;
+    color: #c2a657;
+    border-radius: 12px;
+}
+
+.valut-section .valut-container .valut-main-container .valut-child-container {
+    display: flex;
+    gap: 10px;
+}
+
+.valut-section .valut-container .valut-main-container .valut-child-container .valut-image {
+    height: 50px;
+    width: 50px;
+}
+
+.valut-section .valut-container .valut-main-container .valut-child-container .valut-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
